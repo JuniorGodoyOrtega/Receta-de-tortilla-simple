@@ -218,6 +218,6 @@ body {
     padding: 10px 0;
 }
 
-/* .nutricion__row:last-child {
+.nutricion__row:last-child {
     border-bottom: none;
-} */
+}
