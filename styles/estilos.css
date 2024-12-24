@@ -198,7 +198,6 @@ body {
 .nutricion__table {
     width: 100%;
     border-collapse: collapse;
-    margin: 0 auto;
     font-family: 'Outfit', sans-serif;
 }
 
@@ -209,11 +208,9 @@ body {
 .nutricion__label {
     text-align: left;
     font-size: 1rem;
-    padding: 10px 0;
 }
 
 .nutricion__table-value {
-    text-align: left;
     font-size: 1rem;
     font-weight: bold;
     color: var(--color-brown-800);
@@ -221,6 +218,6 @@ body {
     padding: 10px 0;
 }
 
-.nutricion__row:last-child {
+/* .nutricion__row:last-child {
     border-bottom: none;
-}
+} */
