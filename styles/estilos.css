@@ -106,10 +106,36 @@ body {
     left: 10px;
 }
 
+.ingredientes {
+    border-bottom: 1px solid var(--color-stone-100);
+}
+
 .ingredientes__title {
     color: var(--color-brown-800);
     font-family: 'Young Serif', serif;
     font-weight: 400;
+}
+
+.ingredientes__list {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.ingredientes__item {
+    color: var(--color-stone-600);
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.ingredientes__item::before {
+    content: '•';
+    color: var(--color-brown-800);
+    margin-right: 20px;
+    font-size: 1.5rem;
+    position: relative;
+    left:10px;
 }
 
 .instrucciones__title {
