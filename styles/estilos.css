@@ -227,3 +227,75 @@ body {
 .nutricion__row:last-child {
     border-bottom: none;
 }
+
+@media screen and (max-width: 450px) {
+    body {
+        padding: 0;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .header__img {
+        height: auto;
+        border-radius: 0;
+    }
+
+    .title {
+        font-size: 1.8rem;
+    }
+
+    .paragraph {
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+
+    .tiempo-preparacion {
+        padding: 15px;
+    }
+
+    .tiempo-preparacion__title {
+        font-size: 1.1rem;
+    }
+
+    .tiempo-preparacion__item {
+        font-size: 0.9rem;
+        padding-left: 20px;
+        display: inline-block;
+    }
+
+    .ingredientes__title,
+    .instrucciones__title,
+    .nutricion__title {
+        font-size: 1.2rem;
+    }
+
+    .ingredientes__item,
+    .instrucciones__item,
+    .nutricion__label,
+    .nutricion__table-value {
+        font-size: 0.9rem;
+    }
+
+    .instrucciones__item {
+        padding-left: 30px;
+    }
+
+    .instrucciones__item::before {
+        left: 5px;
+    }
+
+    .nutricion__label {
+        left: 10px;
+    }
+
+    .nutricion__table {
+        width: 100%;
+    }
+
+    .nutricion__table-value {
+        text-align: right;
+    }
+}
