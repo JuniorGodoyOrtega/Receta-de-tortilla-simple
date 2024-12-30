@@ -17,6 +17,6 @@ Este proyecto es una práctica de desarrollo frontend basada en un desafío de *
 - **Frontend Mentor**: [Página del desafío](https://www.frontendmentor.io).
 
 ## Cómo verlo
-Puedes ver el proyecto en vivo en [GitHub Pages](https://juniorgodoyortega.github.io/Receta-de-tortilla-simple/) o clonarlo desde el repositorio:
+Puedes ver el proyecto en vivo en [Receta de tortilla simple - Frontend Mentor Challenge](https://juniorgodoyortega.github.io/Receta-de-tortilla-simple/) o clonarlo desde el repositorio:
 ```bash
 git clone https://github.com/JuniorGodoyOrtega/Receta-de-tortilla-simple.git
